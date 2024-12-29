@@ -17,16 +17,19 @@ export default function SidebarList({ sidebarVisible }: sidebarListProps) {
           projectIcon={GistIcon}
           projectTitle="Gist Gen"
           sidebarVisible={sidebarVisible}
+          routeTo="/gistgen"
         />
         <ProjectTile
           projectIcon={QRCodeIcon}
           projectTitle="QRC Gen"
           sidebarVisible={sidebarVisible}
+          routeTo="/qrcgen"
         />
         <ProjectTile
           projectIcon={URLIcon}
           projectTitle="URL Shortner"
           sidebarVisible={sidebarVisible}
+          routeTo="/linkr"
         />
       </div>
       {/* <div>

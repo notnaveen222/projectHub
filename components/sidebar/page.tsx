@@ -4,6 +4,7 @@ import Image from "next/image";
 import GithubIcon3 from "@/public/github3.svg";
 import { useState } from "react";
 import SidebarList from "./SidebarList";
+import { useRouter } from "next/navigation";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -11,7 +12,7 @@ const geist = Geist({
 
 export default function Sidebar() {
   const [sidebarVisible, setSidebarVisible] = useState(false);
-
+  const router = useRouter();
   return (
     <>
       <div
@@ -52,8 +53,15 @@ export default function Sidebar() {
                 </div>
               </a>
 
-              <div className={` ${sidebarVisible ? "block" : "visible"}`}>
-                <div className={`${geist.className} font-bold text-xl`}>
+              <div
+                className={`cursor-pointer ${
+                  sidebarVisible ? "block" : "visible"
+                }`}
+                onClick={() => router.push("/")}
+              >
+                <div
+                  className={`${geist.className} cursor-pointer font-bold text-xl`}
+                >
                   Naveen
                 </div>
                 <div
