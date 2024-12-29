@@ -1,11 +1,14 @@
 "use client";
 import { ChangeEvent, useState } from "react";
-
+import Image from "next/image";
+import axios from "axios";
 export default function () {
   const [url, setUrl] = useState("");
+
   const handleInput = (e: ChangeEvent<HTMLInputElement>) => {
     setUrl(e.target.value);
   };
+
   return (
     <>
       <div className=" rounded-3xl  bg-black  text-3xl h-full w-full flex flex-col justify-start items-start p-5">
@@ -28,6 +31,7 @@ export default function () {
           </button>
         </div>
         <div>Loading</div>
+        {/* <Image src={qrSrc} alt="Image"></Image> */}
       </div>
     </>
   );
