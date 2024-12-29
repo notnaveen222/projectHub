@@ -1,8 +1,6 @@
 "use client";
 import { ChangeEvent, useState } from "react";
-import Image from "next/image";
-import axios from "axios";
-export default function () {
+export default function Qrcgen() {
   const [url, setUrl] = useState("");
 
   const handleInput = (e: ChangeEvent<HTMLInputElement>) => {

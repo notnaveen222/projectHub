@@ -1,15 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import { Geist } from "next/font/google";
-import { SparklesCore } from "@/components/ui/sparkles";
-
-const inter = Inter({
-  subsets: ["latin"],
-});
-const geist = Geist({
-  subsets: ["latin"],
-});
-
 export default function Home() {
   return (
     <>

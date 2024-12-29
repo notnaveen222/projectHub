@@ -2,8 +2,6 @@ import ProjectTile from "./ProjectTile";
 import GistIcon from "@/public/gist.svg";
 import QRCodeIcon from "@/public/qr-code1.svg";
 import URLIcon from "@/public/url.svg";
-import { url } from "inspector";
-import Image from "next/image";
 
 interface sidebarListProps {
   sidebarVisible: boolean;
@@ -32,13 +30,6 @@ export default function SidebarList({ sidebarVisible }: sidebarListProps) {
           routeTo="/linkr"
         />
       </div>
-      {/* <div>
-        <ProjectTile
-          projectIcon={GistIcon}
-          projectTitle="Gist Gen"
-          sidebarVisible={sidebarVisible}
-        />
-      </div> */}
     </>
   );
 }
