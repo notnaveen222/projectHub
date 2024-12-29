@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="QrCode">
+  <rect width="256" height="256" fill="none"></rect>
+  <rect width="80" height="80" x="40.002" y="40" rx="16" fill="#ffffff" class="color000000 svgShape"></rect>
+  <rect width="80" height="80" x="40.002" y="136" rx="16" fill="#ffffff" class="color000000 svgShape"></rect>
+  <rect width="80" height="80" x="136.002" y="40" rx="16" fill="#ffffff" class="color000000 svgShape"></rect>
+  <path d="M144.00244,184a8.00039,8.00039,0,0,0,8-8V144a8,8,0,0,0-16,0v32A8.00039,8.00039,0,0,0,144.00244,184Z" fill="#ffffff" class="color000000 svgShape"></path>
+  <path d="M208.00244 152h-24v-8a8 8 0 0 0-16 0v56h-24a8 8 0 1 0 0 16h32a8.00039 8.00039 0 0 0 8-8V168h24a8 8 0 0 0 0-16zM208.00244 184a8.00039 8.00039 0 0 0-8 8v16a8 8 0 0 0 16 0V192A8.00039 8.00039 0 0 0 208.00244 184z" fill="#ffffff" class="color000000 svgShape"></path>
+</svg>

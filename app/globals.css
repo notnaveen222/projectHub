@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.slideInAnimation {
+  opacity: 0; /* Start invisible */
+  transform: translateX(-100%); /* Start off to the left */
+  animation: slideIn 50ms ease-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%); /* Starts off-screen to the left */
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* End position is in the original spot */
+  }
+}
