@@ -12,7 +12,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        sidebarBG: "#18181B",
+        sidebarBG: "#0b0b0b",
       },
     },
   },
